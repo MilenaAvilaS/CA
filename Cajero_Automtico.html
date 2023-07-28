@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+< 
+<title>Cajero Automático</title>
+</
+    </head>
+    <body>
+    <
+        <h1>Seleccione una cuenta:</h1>
+        <ul>
+        <li><button onclick="seleccionarCuenta(0)">Persona 1</button></li>
+        <
+        <li><button onclick="seleccionarCuenta(1)">Persona 2</button></li>
+        <
+        <li><button onclick="seleccionarCuenta(2)">Persona 3</button></li>
+        </ul>
+        <div id="cajeroInteraccion" style="display: none;">
+        <h2>Ingresa tu password:</h2>
+            <input type="password" id="passwordInput">
+            <button onclick="verificarPassword()">Ingresar</button>
+            <div id="opciones" style="display: none;">
+            <h2>Opciones disponibles:</h2>
+            <button onclick="consultarSaldo()">Consultar Saldo</button>
+            <button onclick="ingresarMonto()">Ingresar Monto</button>
+    <
+            <button onclick="retirarMonto()">Retirar Monto</button>
+            </div>
+            <div id="resultado" style="display: none;"></div>
+            </div>
+    <script>
+        var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+        var cuentaSeleccionada = -1;
+        var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+    cuentaSeleccionada = index;
+    document.getElementById("cajero")
+    }
+    var cuentas = [
+    { nombre: "Mali", saldo: 200 },
+    { nombre: "Gera", saldo: 290 },
+    { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+    cuentaSeleccionada = index;
+    document.getElementById("caja")
+    }
+    var cuentas = [
+    { nombre: "Mali", saldo: 200 },
+    { nombre: "Gera", saldo: 290 },
+    { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+    cuentaSeleccionada = index;
+    document.getElementById("caja")
+    }
+    var cuentas = [
+    { nombre: "Mali", saldo: 200 },
+    { nombre: "Gera", saldo: 290 },
+    { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+    cuentaSeleccionada = index;
+    document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+      } else {
+        alert("Password incorrecto. Inténtalo nuevamente")
+      }
+    }
+
+        var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+    cuentaSeleccionada = index;
+    document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+    var passwordInput = document.getElementById("passwordInput").value;
+    if (passwordInput === "password") {
+    passwordCorrecto = true;
+    document.getElementById("opciones").style.display = "block";
+    } else {
+    alert("Password incorrecto. Inténtalo de nuevo")
+    }
+}
+
+        var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+    } else {
+        alert("Password incorrecto")
+    }
+    }
+
+    var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+        } else {
+        alert("Password")
+        }
+    }
+    var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+        } else {
+        alert("Verificando Password")
+        }
+    }
+
+    var cuentas = [
+      { nombre: "Mali", saldo: 200 },
+      { nombre: "Gera", saldo: 290 },
+      { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+      cuentaSeleccionada = index;
+      document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+      var passwordInput = document.getElementById("passwordInput").value;
+      if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+      } else {
+        alert("Password incorrecto. Inténtalo nuevamente.");
+      }
+    }
+
+    function consultarSaldo() {
+        if (passwordCorrecto) {
+            var saldoActual = cuentas[cuentaSeleccionada].saldo;
+            document.getElementById("resultado").style.display = "block";
+            document.getElementById("resultado").innerHTML = "Saldo actual";
+        }
+    }
+
+    var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+        } else {
+        alert("Password incorrecto. Inténtalo nuevamente.");
+        }
+    }
+
+    function consultarSaldo() {
+        if (passwordCorrecto) {
+        var saldoActual = cuentas[cuentaSeleccionada].saldo;
+        document.getElementById("resultado").style.display = "block";
+        document.getElementById("resultado").innerHTML = "Saldo actual: $" + saldoActual;
+        }
+    }
+
+    function ingresarMonto() {
+        if (passwordCorrecto) {
+        var montoIngresado = parseFloat(prompt("ingresarMonto"))
+        }
+    }
+
+    var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+            passwordCorrecto = true;
+            document.getElementById("opciones").style.display = "block";
+        } else {
+            alert("Password incorrecto. Inténtalo nuevamente.");
+        }
+    }
+
+    function consultarSaldo() {
+        if (passwordCorrecto) {
+            var saldoActual = cuentas[cuentaSeleccionada].saldo;
+            document.getElementById("resultado").style.display = "block";
+            document.getElementById("resultado").innerHTML = "Saldo actual: $" + saldoActual;
+        }
+    }
+
+    function ingresarMonto() {
+        if (passwordCorrecto) {
+            var montoIngresado = parseFloat(prompt("Ingresa el monto a ingresar:"));
+        if (!isNaN(montoIngresado)) {
+            var saldoActual = cuentas[cuentaSeleccionada].saldo;
+            var nuevoSaldo = saldoActual + montoIngresado;
+            if (nuevoSaldo <= 990 && nuevoSaldo >= 10) {
+                cuentas[cuentaSeleccionada].saldo = nuevoSaldo;
+                document.getElementById("resultado").style.display = "block";
+                document.getElementById("Saldo")
+            }
+        }
+    }
+}
+
+    var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+        } else {
+        alert("Password incorrecto. Inténtalo nuevamente.");
+        }
+    }
+
+    function consultarSaldo() {
+        if (passwordCorrecto) {
+            var saldoActual = cuentas[cuentaSeleccionada].saldo;
+            document.getElementById("resultado").style.display = "block";
+            document.getElementById("resultado").innerHTML = "Saldo actual: $" + saldoActual;
+        }
+    }
+
+    function ingresarMonto() {
+        if (passwordCorrecto) {
+            var montoIngresado = parseFloat(prompt("Ingresa el monto a ingresar:"));
+        if (!isNaN(montoIngresado)) {
+            var saldoActual = cuentas[cuentaSeleccionada].saldo;
+            var nuevoSaldo = saldoActual + montoIngresado;
+        if (nuevoSaldo <= 990 && nuevoSaldo >= 10) {
+            cuentas[cuentaSeleccionada].saldo = nuevoSaldo;
+            document.getElementById("resultado").style.display = "block";
+            document.getElementById("resultado").innerHTML = "Monto ingresado";
+        }
+    }
+}
+    }
+
+    var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+        } else {
+        alert("Password incorrecto. Inténtalo nuevamente.");
+        }
+    }
+
+    function consultarSaldo() {
+        if (passwordCorrecto) {
+        var saldoActual = cuentas[cuentaSeleccionada].saldo;
+        document.getElementById("resultado").style.display = "block";
+        document.getElementById("resultado").innerHTML = "Saldo actual: $" + saldoActual;
+        }
+    }
+
+    function ingresarMonto() {
+        if (passwordCorrecto) {
+        var montoIngresado = parseFloat(prompt("Ingresa el monto a ingresar:"));
+        if (!isNaN(montoIngresado)) {
+            var saldoActual = cuentas[cuentaSeleccionada].saldo;
+            var nuevoSaldo = saldoActual + montoIngresado;
+        if (nuevoSaldo <= 990 && nuevoSaldo >= 10) {
+            cuentas[cuentaSeleccionada].saldo = nuevoSaldo;
+            document.getElementById("resultado").style.display = "block";
+            document.getElementById("resultado").innerHTML = "Monto ingresado";
+            }
+        }
+    }
+}
+
+    var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+        } else {
+        alert("Password incorrecto. Inténtalo nuevamente.");
+        }
+    }
+
+    function consultarSaldo() {
+        if (passwordCorrecto) {
+        var saldoActual = cuentas[cuentaSeleccionada].saldo;
+        document.getElementById("resultado").style.display = "block";
+        document.getElementById("resultado").innerHTML = "Saldo actual: $" + saldoActual;
+        }
+    }
+
+    function ingresarMonto() {
+        if (passwordCorrecto) {
+            var montoIngresado = parseFloat(prompt("Ingresa el monto a ingresar:"));
+        if (!isNaN(montoIngresado)) {
+            var saldoActual = cuentas[cuentaSeleccionada].saldo;
+            var nuevoSaldo = saldoActual + montoIngresado;
+        if (nuevoSaldo <= 990 && nuevoSaldo >= 10) {
+            cuentas[cuentaSeleccionada].saldo = nuevoSaldo;
+            document.getElementById("resultado").style.display = "block";
+            document.getElementById("resultado").innerHTML = "Monto";
+        }
+    }
+}
+    }
+
+    var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+        if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+        } else {
+        alert("Password incorrecto. Inténtalo nuevamente.");
+        }
+    }
+
+    function consultarSaldo() {
+        if (passwordCorrecto) {
+        var saldoActual = cuentas[cuentaSeleccionada].saldo;
+        document.getElementById("resultado").style.display = "block";
+        document.getElementById("resultado").innerHTML = "Saldo actual: $" + saldoActual;
+        }
+    }
+
+    function ingresarMonto() {
+      if (passwordCorrecto) {
+        var montoIngresado = parseFloat(prompt("Ingresa el monto a ingresar:"));
+    if (!isNaN(montoIngresado)) {
+        var saldoActual = cuentas[cuentaSeleccionada].saldo;
+        var nuevoSaldo = saldoActual + montoIngresado;
+        if (nuevoSaldo <= 990 && nuevoSaldo >= 10) {
+            cuentas[cuentaSeleccionada].saldo = nuevoSaldo;
+            document.getElementById("resultado").style.display = "block";
+            document.getElementById("resultado").innerHTML = "nuevosaldo";
+        }
+        }
+    }
+}
+
+    var cuentas = [
+        { nombre: "Mali", saldo: 200 },
+        { nombre: "Gera", saldo: 290 },
+        { nombre: "Maui", saldo: 67 }
+    ];
+
+    var cuentaSeleccionada = -1;
+    var passwordCorrecto = false;
+
+    function seleccionarCuenta(index) {
+        cuentaSeleccionada = index;
+        document.getElementById("cajeroInteraccion").style.display = "block";
+    }
+
+    function verificarPassword() {
+        var passwordInput = document.getElementById("passwordInput").value;
+    if (passwordInput === "password") {
+        passwordCorrecto = true;
+        document.getElementById("opciones").style.display = "block";
+    } else {
+        alert("Password incorrecto. Inténtalo nuevamente.");
+    }
+    }
+
+    function consultarSaldo() {
+    if (passwordCorrecto) {
+        var saldoActual = cuentas[cuentaSeleccionada].saldo;
+        document.getElementById("resultado").style.display = "block";
+        document.getElementById("resultado").innerHTML = "Saldo actual: $" + saldoActual;
+    }
+    }
+
+    function ingresarMonto() {
+    if (passwordCorrecto) {
+        var montoIngresado = parseFloat(prompt("Ingresa el monto a ingresar:"));
+    if (!isNaN(montoIngresado)) {
+        var saldoActual = cuentas[cuentaSeleccionada].saldo;
+        var nuevoSaldo = saldoActual + montoIngresado;
+    if (nuevoSaldo <= 990 && nuevoSaldo >= 10) {
+            cuentas[cuentaSeleccionada].saldo = nuevoSaldo;
+            document.getElementById("resultado").style.display = "block";
+            document.getElementById("resultado").innerHTML = "Monto ingresado: $" + montoIngresado + "<br> Nuevo saldo: $" + nuevoSaldo;
+        } else {
+            alert("El monto ingresado no cumple con las reglas de negocio.");
+        }
+        } else {
+        alert("Monto inválido. Por favor, ingresa un número válido.");
+        }
+    }
+    }
+
+    function retirarMonto() {
+    if (passwordCorrecto) {
+        var montoRetirar = parseFloat(prompt("Ingresa el monto a retirar:"));
+    if (!isNaN(montoRetirar)) {
+        var saldoActual = cuentas[cuentaSeleccionada].saldo;
+        var nuevoSaldo = saldoActual - montoRetirar;
+    if (nuevoSaldo <= 990 && nuevoSaldo >= 10) {
+            cuentas[cuentaSeleccionada].saldo = nuevoSaldo;
+            document.getElementById("resultado").style.display = "block";
+            document.getElementById("resultado").innerHTML = "Monto retirado: $" + montoRetirar + "<br> Nuevo saldo: $" + nuevoSaldo;
+    } else {
+            alert("El monto a retirar no cumple con las reglas de negocio.");
+    }
+        } else {
+    alert("Monto inválido. Por favor, ingresa un número válido.");
+        }
+    }
+    }
+</script>
+</body>
+
+</
+</html>
